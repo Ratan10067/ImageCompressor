@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "dct2": "^0.1.4",
     "sharp": "^0.34.1"
   }
 }

@@ -16,7 +16,7 @@ const { compressImageDCT, decompressImageDCT } = require("./DCT_Compression");
     "Outputs",
     "dct_decompressed.jpg"
   );
-  const quality = 10;
+  const quality = 90;
 
   await compressImageDCT(inputPath, compressedPath, quality);
   await decompressImageDCT(compressedPath, decompressedPath, quality);
